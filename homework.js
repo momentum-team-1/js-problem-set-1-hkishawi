@@ -58,6 +58,7 @@ function celsiusToFahrenheit(c) {
 function fahrenheitToKelvin(r) {
     return (fahrenheitToCelsius(r)+273.15)
 }
+//WHY ADD 273.15??
 
 // 8. Create a function called lesser that takes two numbers as
 // arguments and returns the lesser of them. This function should
@@ -92,7 +93,7 @@ if (lang === 'en') {
 }
 }
     // } else return ()
-// }
+// } WHAT SHOULD RETURN NOTHING LOOK LIKE?
 
 // 10. The greatest common divisor (https://en.wikipedia.org/wiki/Greatest_common_divisor)
 // is the largest integer that, given two other integers, can be divided into them. For
